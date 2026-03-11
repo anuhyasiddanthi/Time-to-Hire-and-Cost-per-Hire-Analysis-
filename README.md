@@ -1,11 +1,23 @@
 📊 Time to Hire and Cost per Hire Analysis in HR Recruitment
+🛠️ Tools Used
+
+Excel – Data preprocessing and initial analysis
+
+Python (Pandas, NumPy) – Data cleaning and manipulation
+
+Python (Matplotlib, Seaborn) – Exploratory data visualization
+
+Scikit-learn – Predictive modeling (Linear Regression)
+
+Power BI – Interactive dashboards and KPI visualization
+
 📖 Overview
 
 This project analyzes the efficiency and financial impact of recruitment processes by evaluating two critical HR metrics: Time to Hire (TTH) and Cost per Hire (CPH). Using historical recruitment data from 2018–2024, the analysis identifies hiring bottlenecks, evaluates recruiter performance, and predicts future hiring trends.
 
 The project integrates data analysis, predictive modeling, and interactive dashboards to support data-driven recruitment strategies. By leveraging tools such as Python, Excel, and Power BI, the study provides actionable insights that help organizations optimize recruitment timelines and manage hiring costs effectively.
 
-The project demonstrates an end-to-end HR analytics workflow, including data preprocessing, exploratory analysis, predictive modeling, and dashboard visualization.
+This project demonstrates an end-to-end HR analytics workflow, including data preprocessing, exploratory analysis, predictive modeling, and dashboard visualization.
 
 🎯 Objectives
 
@@ -21,16 +33,9 @@ Forecast Time to Hire and Cost per Hire for 2025–2026 using predictive modelin
 
 Provide data-driven recommendations to improve recruitment efficiency.
 
-🛠️ Tools & Technologies Used
-Tool	Purpose
-Excel	Data preprocessing and initial analysis
-Python (Pandas, NumPy)	Data cleaning and manipulation
-Python (Matplotlib, Seaborn)	Exploratory data visualization
-Scikit-learn	Predictive modeling (Linear Regression)
-Power BI	Interactive dashboards and KPI visualization
-🔄 Project Workflow
+🛠️ Project Workflow & Tools
 
-This project follows a structured data analytics pipeline from raw data processing to visualization.
+This project follows a structured data analytics workflow, moving from raw data processing to predictive modeling and dashboard visualization.
 
 Phase	Tool	Role
 Data Preparation	Excel, Python	Cleaning and structuring recruitment data
@@ -41,55 +46,75 @@ Dashboarding	Power BI	Visualizing KPIs and recruitment insights
 📊 Methodology
 Data Preparation
 
-Cleaned and standardized recruitment data using Python (Pandas).
+Raw recruitment data was cleaned and standardized using Python (Pandas).
 
-Converted raw recruitment dates into datetime format for accurate calculations.
+Key preprocessing steps included:
 
-Computed Time to Hire using the difference between Job Posted Date and Joining Date.
+Converting recruitment dates into datetime format
 
-Aggregated recruitment cost components such as:
+Calculating Time to Hire using the difference between Job Posted Date and Joining Date
+
+Aggregating recruitment cost components such as:
 
 Advertising cost
 
-Agency fee
+Agency fees
 
-Interview cost
+Interview costs
 
-Relocation cost
+Relocation costs
 
-Onboarding cost
+Onboarding costs
 
 Exploratory Data Analysis (EDA)
 
-Conducted department-wise and job title-wise analysis.
+EDA was performed to identify patterns, delays, and cost variations in the recruitment pipeline.
 
-Identified roles with longer hiring durations and higher recruitment costs.
+Analysis included:
 
-Used visualizations such as histograms, bar charts, and trend plots to explore patterns.
+Department-wise hiring analysis
+
+Job title hiring duration comparisons
+
+Recruitment cost distribution analysis
+
+Visualization techniques included:
+
+Bar charts
+
+Histograms
+
+Trend analysis plots
+
+These insights helped identify roles and departments with higher hiring delays or recruitment costs.
 
 Predictive Modeling
 
-Built Linear Regression models using Scikit-learn to forecast:
+To forecast future recruitment metrics, Linear Regression models were developed using Scikit-learn.
 
-Time to Hire (2025–2026)
+The models predicted:
 
-Cost per Hire (2025–2026)
+Time to Hire for 2025–2026
+
+Cost per Hire for 2025–2026
 
 Model performance was evaluated using the R² score, achieving approximately 92% predictive accuracy.
 
 Dashboard Development
 
-Created Power BI dashboards to visualize key recruitment metrics:
+An interactive Power BI dashboard was created to visualize recruitment performance metrics, including:
 
 Average Time to Hire
 
 Average Cost per Hire
 
-Recruiter performance
+Recruiter performance analysis
 
 Department-wise hiring trends
 
-Job title hiring comparisons
+Job role comparisons
+
+These dashboards enable HR teams to monitor recruitment efficiency and make data-driven decisions.
 
 📈 Results & Key Insights
 Recruitment Metrics
@@ -120,9 +145,9 @@ Lowest hiring cost: BPO – ₹58,000
 
 Highest hiring cost: Sales – ₹74,000
 
-Recruitment Stage Analysis
+Recruitment Stage Insights
 
-Training and onboarding processes accounted for nearly 50% of the total recruitment timeline, indicating a key area for optimization.
+Training and onboarding processes accounted for nearly 50% of the total recruitment timeline, highlighting a major opportunity for process optimization.
 
 🔮 Predictive Insights (2025–2026)
 Average Predicted Time to Hire
@@ -153,35 +178,38 @@ These predictions support future workforce planning and recruiter allocation str
 
 💡 Recommendations
 
+Based on the analysis, the following recommendations were identified:
+
 Optimize high-delay roles by streamlining interview and approval processes.
 
 Reduce recruitment costs by increasing internal referrals and reducing agency reliance.
 
-Leverage high-performing recruiters for complex job roles.
+Assign high-performing recruiters to complex job roles.
 
 Implement predictive hiring strategies to anticipate recruitment demand.
 
-Use data-driven dashboards for continuous recruitment performance monitoring.
+Use interactive dashboards for continuous recruitment performance monitoring.
 
 📂 Repository Structure
-.
-Repository
-│
-├── data
-├── notebooks
-│   └── HR_Recruitment_Analysis.ipynb
-├── dashboard
-└── README.md
 
+The project is organized in a structured format separating data, analysis notebooks, and visualization outputs.
+
+.
+├── 📄 README.md
+├── 📂 data
+│   └── recruitment_dataset.csv
+├── 📂 notebooks
+│   └── HR_Recruitment_Analysis.ipynb
+├── 📂 dashboard
+│   └── recruitment_dashboard.pbix
+└── 📂 visualizations
+    └── charts_and_graphs
 📊 Dashboard Preview
 
-Below is the Power BI dashboard visualizing recruitment insights.
+Below is the Power BI dashboard visualizing recruitment insights and hiring performance.
 
 (Add your Power BI dashboard screenshot here)
 
 Example:
 
-![Recruitment Dashboard](images/dashboard.png)
-📚 References
-
-Native Techies Pvt. Ltd.
+Recruitment Analytics Dashboard
