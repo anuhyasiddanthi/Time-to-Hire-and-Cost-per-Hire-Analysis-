@@ -172,3 +172,10 @@ These predictions support **future workforce planning and recruiter allocation s
 ---
 
 ## 📂 Repository Structure
+├── README.md
+├── data/
+│ └── recruitment_dataset.csv
+├── notebooks/
+│ └── HR_Recruitment_Analysis.ipynb
+├── dashboard/
+│ └── recruitment_dashboard.pbix
