@@ -1,48 +1,4 @@
-📊 Time to Hire and Cost per Hire Analysis in HR Recruitment
-🛠️ Tools Used
-
-Excel – Data preprocessing and initial analysis
-
-Python (Pandas, NumPy) – Data cleaning and manipulation
-
-Python (Matplotlib, Seaborn) – Exploratory data visualization
-
-Scikit-learn – Predictive modeling (Linear Regression)
-
-Power BI – Interactive dashboards and KPI visualization
-
-📖 Overview
-
-This project analyzes the efficiency and financial impact of recruitment processes by evaluating two critical HR metrics: Time to Hire (TTH) and Cost per Hire (CPH). Using historical recruitment data from 2018–2024, the analysis identifies hiring bottlenecks, evaluates recruiter performance, and predicts future hiring trends.
-
-The project integrates data analysis, predictive modeling, and interactive dashboards to support data-driven recruitment strategies. By leveraging tools such as Python, Excel, and Power BI, the study provides actionable insights that help organizations optimize recruitment timelines and manage hiring costs effectively.
-
-This project demonstrates an end-to-end HR analytics workflow, including data preprocessing, exploratory analysis, predictive modeling, and dashboard visualization.
-
-🎯 Objectives
-
-Analyze the average Time to Hire and Cost per Hire across the recruitment pipeline.
-
-Identify hiring bottlenecks across departments and job roles.
-
-Compare recruiter-wise hiring performance using historical data.
-
-Perform trend analysis (2018–2024) to evaluate recruitment efficiency.
-
-Forecast Time to Hire and Cost per Hire for 2025–2026 using predictive modeling.
-
-Provide data-driven recommendations to improve recruitment efficiency.
-
-🛠️ Project Workflow & Tools
-
-This project follows a structured data analytics workflow, moving from raw data processing to predictive modeling and dashboard visualization.
-
-Phase	Tool	Role
-Data Preparation	Excel, Python	Cleaning and structuring recruitment data
-Data Analysis	Python (Pandas)	Calculating Time to Hire and Cost per Hire
-Exploratory Data Analysis	Matplotlib, Seaborn	Identifying hiring trends and patterns
-Predictive Modeling	Scikit-learn	Forecasting hiring metrics for 2025–2026
-Dashboarding	Power BI	Visualizing KPIs and recruitment insights
+	Power BI	Visualizing KPIs and recruitment insights
 📊 Methodology
 Data Preparation
 
