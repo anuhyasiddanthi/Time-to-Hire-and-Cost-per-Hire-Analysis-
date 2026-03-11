@@ -172,6 +172,8 @@ These predictions support **future workforce planning and recruiter allocation s
 ---
 
 ## 📂 Repository Structure
+```
+.
 ├── 📄 README.md                 # Project documentation and overview
 ├── 📂 data/
 │   └── recruitment_dataset.csv  # Raw recruitment dataset used for analysis
@@ -179,3 +181,4 @@ These predictions support **future workforce planning and recruiter allocation s
 │   └── HR_Recruitment_Analysis.ipynb   # Jupyter Notebook containing analysis and modeling
 ├── 📂 dashboard/
 │   └── recruitment_dashboard.pbix      # Power BI dashboard for recruitment insights
+```
